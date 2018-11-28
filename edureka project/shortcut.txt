@@ -1,0 +1,11 @@
+
+
+type main + ctrl + spacebar +enter ----  to write main method
+
+type syso + ctrl + spacebar + enter---- to write " system.out.println"
+
+ctrl + s --- to save a file
+
+Alt + shift + x ,j ---- to run as java
+
+Shift + ctrl + F ---- to formate a code
