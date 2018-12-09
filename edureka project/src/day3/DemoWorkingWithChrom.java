@@ -6,5 +6,10 @@ public class DemoWorkingWithChrom {
 	 WorkingWithChrom wc = new WorkingWithChrom();
 	 
 	 wc.invokeBrowser();
+	 
+	 wc.printTitle();
+	 
+	 wc.closeBrowser();
+	 
 }
 }
