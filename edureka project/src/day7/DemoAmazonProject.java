@@ -8,7 +8,14 @@ public class DemoAmazonProject {
 		
 		 AmazonProject ap =  new AmazonProject();
 		 ap .invokeBrowser("chrome");
-
+        ap.searchProduct("Refrigerator","Appliances");
+        
+        ap.printNthProduct(4);
+      //  ap.printAllProducts();
+       // ap.printAllProductsViaScrollDown();
+        ap.printAllProductsViaScrollDownUsingJS();
+        
+        
 	} 
 
 }

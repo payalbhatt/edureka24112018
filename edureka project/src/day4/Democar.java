@@ -8,7 +8,7 @@ public class Democar {
 		
 		mac.start();
 		mac.stop();
-		mac.numberOfSeats= 6;
+	    mac.numberOfSeats=6;
 		
 		System.out.println(mac.engineSize);
 		

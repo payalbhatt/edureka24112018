@@ -37,7 +37,7 @@ public class MultipleBrowserTesting {
 		driver.manage().window().setSize(dim);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-	//	driver.manage().timeouts().pageLoadTimeout(90, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(90, TimeUnit.SECONDS);
 
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
