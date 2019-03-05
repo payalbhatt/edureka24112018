@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day7.GuruProject">
+      <class name="day8.DataProviderTesting">
         <methods>
-          <include name="verifyTitleOfThePage"/>
-          <include name="invokeBrowser"/>
-          <include name="closeBrowser"/>
+          <include name="printAllData"/>
         </methods>
-      </class> <!-- day7.GuruProject -->
+      </class> <!-- day8.DataProviderTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

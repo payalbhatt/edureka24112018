@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GuruProject" parallel="tests">
+
+  <test  name=" Firefox Testing">
+      <parameter name="browserType" value="firefox"></parameter>
+      <parameter name="userID" value="mngr150997"></parameter>
+      <parameter name="Password" value="mudEzan"></parameter>
+       <classes>
+      <class name="day8.GuruProject"/>
+     </classes>
+     
+       </test> <!-- BasicTesting -->
+     <test  name=" Chrome Testing">
+  <parameter name="browserType" value="chrome"></parameter>
+  <parameter name="userID" value="mngr150997"></parameter>
+   <parameter name="Password" value="mudEzan"></parameter>
+    <classes>
+      <class name="day8.GuruProject"/>
+     </classes>
+     
+       </test> <!-- BasicTesting -->
+     <test  name="Edge Testing">
+  <parameter name="browserType" value="edge"></parameter>
+  <parameter name="userID" value="mngr150997"></parameter>
+   <parameter name="Password" value="mudEzan"></parameter>
+    <classes>
+      <class name="day8.GuruProject"/>
+    </classes>
+    
+  </test> <!-- BasicTesting -->
+  
+</suite> <!-- GuruProject -->

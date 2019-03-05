@@ -5,12 +5,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class Guru99Project {
+public class Dropdown {
 	ChromeDriver driver;
 	public void invokeBrowser(){
 		
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\payal\\Desktop\\PAYALQA\\QA\\chromedriver.exe");
+				"C:\\Users\\payal\\libs\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		
@@ -50,8 +50,9 @@ public class Guru99Project {
  }
   
  
- public void addAccount(String CustomerId) {
+ public void addAccount(String CustomerId) throws InterruptedException {
 	 driver.findElement(By.linkText("New Account")).click();
+	 Thread.sleep(5000);
 	 driver.findElement(By.name("cusid")).sendKeys(CustomerId);
 	 
 	 WebElement accountDropdown = driver.findElement(By.name("selaccount"));

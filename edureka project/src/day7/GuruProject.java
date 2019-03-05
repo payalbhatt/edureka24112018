@@ -22,7 +22,7 @@ public class GuruProject {
 	}
 	@Test(priority = 0)
 	public void verifyTitleOfThePage() {
-		String ExpectedTitle = "Guru99 Bank Home Page1";
+		String ExpectedTitle = "Guru99 Bank Home Page";
 	    String ActualTitle= driver.getTitle();
 	    Assert.assertEquals(ActualTitle, ExpectedTitle);
 	}

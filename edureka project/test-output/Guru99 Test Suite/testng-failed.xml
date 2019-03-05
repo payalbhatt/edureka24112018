@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Guru99 Test Suite]">
+  <test thread-count="5" name="Basic Scenario Testing(failed)">
+    <classes>
+      <class name="day8.GuruProject">
+        <methods>
+          <include name="verifyTitleOfThePage"/>
+          <include name="closeBrowser"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- day8.GuruProject -->
+    </classes>
+  </test> <!-- Basic Scenario Testing(failed) -->
+</suite> <!-- Failed suite [Guru99 Test Suite] -->

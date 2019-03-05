@@ -1,10 +1,10 @@
 package day3;
 
-public class DemoGuru99Project {
+public class DemoDropDown {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
-				 Guru99Project guru = new Guru99Project();
+				 Dropdown guru = new Dropdown();
 				 
 				 guru.invokeBrowser();
 				 guru.login("mngr150997","mudEzan");

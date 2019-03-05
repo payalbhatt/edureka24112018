@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GuruProject]" parallel="tests">
+  <test thread-count="5" name="Edge Testing(failed)" parallel="tests">
+    <parameter name="userID" value="mngr150997"/>
+    <parameter name="browserType" value="edge"/>
+    <parameter name="Password" value="mudEzan"/>
+    <classes>
+      <class name="day8.GuruProject">
+        <methods>
+          <include name="verifyTitleOfThePage"/>
+          <include name="closeBrowser"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- day8.GuruProject -->
+    </classes>
+  </test> <!-- Edge Testing(failed) -->
+  <test thread-count="5" name=" Chrome Testing(failed)" parallel="tests">
+    <parameter name="userID" value="mngr150997"/>
+    <parameter name="browserType" value="chrome"/>
+    <parameter name="Password" value="mudEzan"/>
+    <classes>
+      <class name="day8.GuruProject">
+        <methods>
+          <include name="verifyTitleOfThePage"/>
+          <include name="closeBrowser"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- day8.GuruProject -->
+    </classes>
+  </test> <!--  Chrome Testing(failed) -->
+  <test thread-count="5" name=" Firefox Testing(failed)" parallel="tests">
+    <parameter name="userID" value="mngr150997"/>
+    <parameter name="browserType" value="firefox"/>
+    <parameter name="Password" value="mudEzan"/>
+    <classes>
+      <class name="day8.GuruProject">
+        <methods>
+          <include name="verifyTitleOfThePage"/>
+          <include name="closeBrowser"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- day8.GuruProject -->
+    </classes>
+  </test> <!--  Firefox Testing(failed) -->
+</suite> <!-- Failed suite [GuruProject] -->

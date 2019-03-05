@@ -15,19 +15,19 @@ public class MultipleBrowserTesting {
 
 		if (browserType.equals("chrome")) {
 
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\payal\\Desktop\\PAYALQA\\QA\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\payal\\libs\\chromedriver.exe");
 
 			driver = new ChromeDriver();
 		} else if (browserType.equals("firefox")) {
 
-			System.setProperty("webdriver.gecko.driver", "C:\\Users\\payal\\Desktop\\PAYALQA\\QA\\geckodriver-v0.23.0-win64\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "C:\\Users\\payal\\libs\\geckodriver-v0.23.0-win64\\geckodriver.exe");
 
 			driver = new FirefoxDriver();
 
 		} else if (browserType.equals("edge")) {
 
 			System.setProperty("webdriver.edge.driver",
-					"C:\\Users\\payal\\Desktop\\PAYALQA\\QA\\microsoftwebdriver.exe");
+					"C:\\Users\\payal\\libs\\microsoftwebdriver.exe");
 
 			driver = new EdgeDriver();
 

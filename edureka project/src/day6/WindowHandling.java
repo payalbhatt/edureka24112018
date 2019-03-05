@@ -7,7 +7,7 @@ public class WindowHandling {
 
 	public static void main(String[] args) {
 		ChromeDriver driver;
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\payal\\Desktop\\PAYALQA\\QA\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\payal\\libs\\chromedriver.exe");
 
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
